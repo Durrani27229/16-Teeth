@@ -61,16 +61,36 @@
 .fs-14 {
   font-size: 14px;
 }
+.fs-15 {
+  font-size: 15px;
+}
 .fs-18 {
   font-size: 18px;
 }
 .fs-20 {
   font-size: 20px;
 }
+.fs-22 {
+  font-size: 22px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-26 {
+  font-size: 26px;
+}
+.fs-27 {
+  font-size: 27px;
+}
+.fs-28 {
+  font-size: 28px;
+}
 .fs-30 {
   font-size: 30px;
 }
-
+.fs-34 {
+  font-size: 34px;
+}
 .fw-300 {
   font-weight: 300;
 }
@@ -83,12 +103,21 @@
 .txt-grey {
   color: #b3b3b3;
 }
+.txt-orange {
+  color: #f5970a;
+}
 .txt-pink {
   color: #fe0dc9;
 }
 .view-prof {
   text-decoration: underline;
   color: #2f2f2d;
+}
+.view-prof a {
+  color: #2f2f2d;
+}
+.view-prof a:hover {
+  cursor: pointer;
 }
 .profile-img {
   width: 70px;
@@ -323,7 +352,7 @@
 .booking table tr {
   height: 30px;
 }
-.booking-history{
+.booking-history {
   height: 836px;
   background-color: #ffffff;
   border-radius: 10px;
@@ -385,7 +414,7 @@
 }
 
 .booking-items {
-  height: 3000px;
+  height: 4000px;
 }
 .booking-payment {
   height: 198px;
@@ -514,6 +543,17 @@
   font-family: "Lexend";
   background-color: #ffffff;
 }
+.btn-white {
+  width: 247px;
+  height: 56px;
+  border: 1px solid #2f2f2d;
+  color: #2f2f2d;
+  font-size: 14px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-family: "Lexend";
+  background-color: #ffffff;
+}
 .btn-black {
   width: 247px;
   height: 56px;
@@ -604,6 +644,40 @@
   font-size: 14px;
 }
 
+.notification {
+  display: flex;
+  justify-content: center;
+  height: 223px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  align-items: center;
+  gap: 25px;
+}
+.notification-img img{
+  width: 106px;
+  height: 106px;
+}
+.notification-content{
+  display: flex
+;
+    flex-direction: column;
+    height: 90px;
+    justify-content: center;
+    line-height: 0.5;
+    font-family: 'Lexend';
+}
+.notification-btn {
+  width: 193px;
+  height: 43px;
+  border: 1px solid #2f2f2d;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-family: "Lexend";
+  color: #ffffff;
+  background-color: #2f2f2d;
+}
+
 /* Broadcast Notification End */
 
 /* Referral Start */
@@ -673,3 +747,375 @@
   height: 18px;
 }
 /* Query End */
+
+/* Setting Start */
+
+.setting {
+  display: flex;
+  flex-direction: column;
+  height: 440px;
+  justify-content: space-around;
+}
+.setting-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 85.54px;
+  padding: 28px;
+  border-radius: 20px;
+  border: 1px solid #828d9e66;
+  background-color: #ffffff;
+  font-family: "lexend", serif;
+}
+.setting-div a {
+  text-decoration: none;
+  color: #000000;
+}
+.terms {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.back a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 900;
+}
+
+/* Commission Cart Start */
+
+.commission {
+  height: 302px;
+  width: 415px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px 15px;
+}
+
+.commission input {
+  width: 369px;
+  height: 52px;
+  border: 1px solid #e2e5ea;
+  border-radius: 8px;
+}
+
+.commission button {
+  width: 370px;
+  height: 52px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #2f2f2d;
+  color: #ffffff;
+  font-family: "Red Hat Display", serif;
+}
+
+/* Commission Cart End */
+
+/* Setting End */
+
+/* Cashout Start */
+
+.cash-cart {
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 144px;
+  padding: 35px;
+}
+.cash-btn {
+  width: 148px;
+  height: 36px;
+  border: 1px solid #2f2f2d;
+  font-size: 14px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-family: "Red Hat Display", serif;
+  color: #ffffff;
+  background-color: #2f2f2d;
+}
+
+/* Cashout End */
+
+/* Profile Start */
+
+.profile-pic {
+  width: 157px;
+  height: 146px;
+}
+.profile-pic img {
+  width: 157px;
+  height: 146px;
+}
+.profile-detail {
+  height: 271px;
+  font-size: 18px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 80px;
+  gap: 20px;
+}
+.profile-detail div {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.profile-btn {
+  width: 450px;
+  height: 56px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #2f2f2d;
+  color: #ffffff;
+  font-family: "Red Hat Display", serif;
+}
+
+.edit-profile-pic {
+  background-color: #ffffff;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  border: 2px dashed #fe0dc966;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-input {
+  width: 100%;
+  height: 47px;
+  border-radius: 12px;
+  border: 0.2px solid #8a96af;
+  background-image: url("../Images/mail.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 20px;
+  padding-left: 40px;
+  margin: 10px 0px;
+}
+.pass-input {
+  width: 100%;
+  height: 47px;
+  border-radius: 12px;
+  border: 0.2px solid #8a96af;
+  background-image: url("../Images/pass.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 20px;
+  padding-left: 40px;
+  margin: 10px 0px;
+}
+.phone-input {
+  width: 100%;
+  height: 47px;
+  border-radius: 12px;
+  border: 0.2px solid #8a96af;
+  background-image: url("../Images/Call.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 20px;
+  padding-left: 40px;
+  margin: 10px 0px;
+}
+
+/* Profile End */
+
+/* Login Screen Start */
+
+.login-screen {
+  height: 100vh;
+  background-image: url("../Images/login.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-page {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 694px;
+  font-family: 'Lexend', serif;
+}
+.login-top {
+  width: 200px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+
+  gap: 10px;
+}
+
+select {
+  border: none; /* No border */
+  background: none; /* Transparent background */
+  color: #fe0dc9;
+  outline: none; /* Remove focus outline */
+}
+
+.custom-select {
+  /* border-left: 1px solid grey; */
+  /* padding-left: 10px; */
+}
+.login-top img {
+  width: 1px;
+  height: 36px;
+  align-self: center;
+}
+
+.login-email {
+  width: 518px;
+  height: 47px;
+  border-radius: 12px;
+  border: 0.2px solid #8a96af;
+  background-image: url("../Images/mail.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 20px;
+  padding-left: 40px;
+  margin: 10px 0px;
+}
+.login-password {
+  width: 518px;
+  height: 47px;
+  border-radius: 12px;
+  border: 0.2px solid #8a96af;
+  background-image: url("../Images/pass.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 20px;
+  padding-left: 40px;
+  margin: 10px 0px;
+}
+.login-btn {
+  width: 518px;
+  height: 56px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #2f2f2d;
+  color: #ffffff;
+  font-family: "Red Hat Display", serif;
+}
+
+/* Login Screen End */
+
+
+/* Service Provider Request Start */
+
+.service-approve-btn{
+  width: 108px;
+  height: 33px;
+  background-color: #FE0DC9;
+  color: #ffffff;
+  font-weight: 500px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+}
+.service-disapprove-btn{
+  width: 108px;
+  height: 33px;
+  background-color: #ffffff;
+  color: #2F2F2D;
+  font-weight: 500px;
+  font-size: 14px;
+  border: 0.5px solid #2F2F2D;
+  border-radius: 8px;
+}
+.eye-btn{
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: #ffffff;
+  background-image: url('../Images/Eye.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.service-provider-btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.seeker-action img{
+  width: 5px;
+  height: 23px;
+}
+
+/* Service Provider Request End */
+
+/* Service Provider Details Start */
+
+.spd-img img{
+  width: 129px;
+  height: 124px;
+}
+
+.service-provider-detail{
+
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+
+}
+.service-provider-docs{
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  /* height: 617px; */
+}
+.spd-btn{
+  width: 129px;
+  height: 52px;
+  border: 1px solid #2f2f2d;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-family: "Lexend";
+  color: #ffffff;
+  background-color: #2f2f2d;
+}
+.service-provider-docs-list{
+  height: 412px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.spd-approve-btn{
+  width: 160px;
+  height: 49px;
+  background-color: #FE0DC9;
+  color: #ffffff;
+  font-weight: 500px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.spd-disapprove-btn{
+  width: 160px;
+  height: 49px;
+  background-color: #ffffff;
+  color: #2F2F2D;
+  font-weight: 500px;
+  font-size: 20px;
+  border: 0.5px solid #2F2F2D;
+  border-radius: 10px;
+} */
+/* Service Provider Details End */

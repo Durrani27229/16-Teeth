@@ -61,10 +61,10 @@
                 <div >
                   <ul>
                     <li><img src="../../Images/ds.png" alt="Dashboard"><a href="../../index.html">Dashboard</a></li>
-                    <li><img src="../../Images/bkhstry.png" alt="Booking History"><a href="#">Booking History</a></li>
-                    <li><img src="../../Images/spr.png" alt="Service Provider Request"><a href="../Service Provider Request/serviceProvider.html">Service Provider Request</a></li>
+                    <li><img src="../../Images/bkhstry.png" alt="Booking History"><a href="../Booking/bookingHistory.html">Booking History</a></li>
+                    <li><img src="../../Images/spr.png" alt="Service Provider Request"><a href="../Service Provider Request/serviceProviderRequest.html">Service Provider Request</a></li>
                     <li><img src="../../Images/sp.png" alt="Service Provider"><a href="../Service Provider Request/serviceProvider.html">Service Provider</a></li>
-                    <li><img src="../../Images/ss.png" alt="Service Seeker"><a href="../Service Seekers/seekers.html">Service Seekers</a></li>
+                    <li><img src="../../Images/ss.png" alt="Service Seeker"><a href="#">Service Seekers</a></li>
                     <li><img src="../../Images/los.png" alt="List of Service"><a href="../List Of Services/listofService.html">List of Services</a></li>
                     <li><img src="../../Images/qm.png" alt="Queries Management"><a href="../Query/query.html">Queries Management</a></li>
                     <li><img src="../../Images/bn.png" alt="Broadcast Notification"><a href="../Broadcast/broadcast.html">Broadcast Notification</a></li>
@@ -88,7 +88,7 @@
 
           <div class="section col-md-9 col-lg-9 col-xl-9 col-xxl-9">
             <div class="mt-3">
-              <h2 class="lexend">Booking History</h2>
+              <h2 class="lexend">Service Seekers</h2>
             </div>
             <div class="row">
                 <div class="col-lg-12 col-xxl-12 col-xl-12 col-md-12 col-sm-12">
@@ -96,121 +96,136 @@
                     <div class="booking-history px-3 py-3 mt-2  ">
                         <div class="booking-title px-3">
                             <div>
-                                <p class="fs-20 fw-700 red-hat pt-3 ps-5">Bookings</p>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>All</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select>
                             </div>
-                            <div class="booking-form lexend">
-                                <div class="btn-group">
-                                    <button class="btn-physical" id="physical-btn" onclick="physicalButton()">Physical</button>
-                                    <button class="btn-online" id="online-btn" onclick="onlineButton()">Online</button>
-                                </div>
-                                <div class="booking-date">
-                                    <input type="date">
-                                </div>
-                                <div class="booking-icon ">
-                                    <img src="../../Images/toggler.png" alt="toggler">
-                                    <img src="../../Images/Calendar.png" alt="Calendar">
-                                </div>
+                            <div>
+                                <input type="date">
                             </div>
                         </div>
-                        <div class="booking px-3 ">
+                        <div class="booking px-3 mt-4 ">
                             <table class="table lexend">
                                 <tr class="booking-head ">
-                                    <th class="ps-5 red-hat">Booking ID / Date & Time</th>
-                                    <th>Service</th>
-                                    <th>Amount</th>
-                                    <th>Status</th>
+                                    <th class="ps-5 red-hat">User ID / Date Joined</th>
+                                    <th>Email Address</th>
+                                    <th>Bookings</th>
+                                    <th>Action</th>
                                 </tr>
                                 <tr>
                                     <td class="lh-5 ps-5">
-                                        <p class="pt-2">545415461</p>
+                                        <p class="pt-3">545415461</p>
                                         <p class="fs-14 txt-grey">Today 8:00 PM</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey pt-2">Poolishing Teeth</p>
+                                        <p class="txt-grey pt-3">Kianna@gmail.com</p>
+                                    </td>
+                                    <td >
+                                        <p class="txt-grey pt-3">10</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey pt-2">USD 50.00</p>
+                                        <div class="seeker-action pt-3">
+                                            <img src="../../Images/3dot.png" alt="">
+                                        </div>
                                     </td>
-                                    <td>
-                                        <p class="pt-2 fw-600 text-success red-hat">Active</p>
-                                    </td>
+                                    
                                 </tr>
                                 <tr>
                                     <td class="lh-5 ps-5">
-                                        <p class="pt-2">545415461</p>
+                                        <p class="pt-3">545415461</p>
                                         <p class="fs-14 txt-grey">Today 8:00 PM</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey pt-2">New smile makeover</p>
+                                        <p class="txt-grey pt-3">Kianna@gmail.com</p>
+                                    </td>
+                                    <td >
+                                        <p class="txt-grey pt-3">10</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey pt-2">USD 50.00</p>
+                                        <div class="seeker-action pt-3">
+                                            <img src="../../Images/3dot.png" alt="">
+                                        </div>
                                     </td>
-                                    <td>
-                                        <p class="pt-2 fw-600 text-warning red-hat">Completed</p>
-                                    </td>
+                                    
                                 </tr>
                                 <tr>
                                     <td class="lh-5 ps-5">
-                                        <p class="pt-2">545415461</p>
+                                        <p class="pt-3">545415461</p>
                                         <p class="fs-14 txt-grey">Today 8:00 PM</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey pt-2 ">Remove Smile</p>
+                                        <p class="txt-grey pt-3">Kianna@gmail.com</p>
+                                    </td>
+                                    <td >
+                                        <p class="txt-grey pt-3">10</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey pt-2">USD 50.00</p>
+                                        <div class="seeker-action pt-3">
+                                            <img src="../../Images/3dot.png" alt="">
+                                        </div>
                                     </td>
-                                    <td>
-                                        <p class="pt-2 fw-600 text-danger red-hat">Cancelled</p>
-                                    </td>
+                                    
                                 </tr>
                                 <tr>
                                     <td class="lh-5 ps-5">
-                                        <p class="pt-2">545415461</p>
+                                        <p class="pt-3">545415461</p>
                                         <p class="fs-14 txt-grey">Today 8:00 PM</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey pt-2">Repair one or two teeth</p>
+                                        <p class="txt-grey pt-3">Kianna@gmail.com</p>
+                                    </td>
+                                    <td >
+                                        <p class="txt-grey pt-3">10</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey pt-2">USD 50.00</p>
+                                        <div class="seeker-action pt-3">
+                                            <img src="../../Images/3dot.png" alt="">
+                                        </div>
                                     </td>
-                                    <td>
-                                        <p class="pt-2 fw-600 text-success red-hat">Active</p>
-                                    </td>
-                                </tr>
-                                <tr class="mt-2">
-                                    <td class="lh-5 ps-5">
-                                        <p class="pt-2">545415461</p>
-                                        <p class="fs-14 txt-grey">Today 8:00 PM</p>
-                                    </td>
-                                    <td>
-                                        <p class="txt-grey pt-2">Physical Consultation</p>
-                                    </td>
-                                    <td>
-                                        <p class="txt-grey pt-2">USD 50.00</p>
-                                    </td>
-                                    <td>
-            
-                                        <p class="pt-2 fw-600 text-warning red-hat">Completed</p>
-                                    </td>
+                                    
                                 </tr>
                                 <tr>
                                     <td class="lh-5 ps-5">
-                                        <p class="pt-2">545415461</p>
+                                        <p class="pt-3">545415461</p>
                                         <p class="fs-14 txt-grey">Today 8:00 PM</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey pt-2">Poolishing Teeth</p>
+                                        <p class="txt-grey pt-3">Kianna@gmail.com</p>
+                                    </td>
+                                    <td >
+                                        <p class="txt-grey pt-3">10</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey pt-2">USD 50.00</p>
+                                        <div class="seeker-action pt-3">
+                                            <img src="../../Images/3dot.png" alt="">
+                                        </div>
                                     </td>
-                                    <td>
-                                        <p class="pt-2 fw-600 text-success red-hat">Active</p>
-                                    </td>
+                                    
                                 </tr>
+                                <tr>
+                                    <td class="lh-5 ps-5">
+                                        <p class="pt-3">545415461</p>
+                                        <p class="fs-14 txt-grey">Today 8:00 PM</p>
+                                    </td>
+                                    <td>
+                                        <p class="txt-grey pt-3">Kianna@gmail.com</p>
+                                    </td>
+                                    <td >
+                                        <p class="txt-grey pt-3">10</p>
+                                    </td>
+                                    <td>
+                                        <div class="seeker-action pt-3">
+                                            <img src="../../Images/3dot.png" alt="">
+                                        </div>
+                                    </td>
+                                    
+                                </tr>
+                                
+                                
+                            
             
                             </table>
                         </div>
