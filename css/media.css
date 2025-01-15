@@ -1,0 +1,75 @@
+/* Sidebar */
+
+@media (min-width: 992px) {
+    
+}   
+
+@media only screen and (max-width: 576px){
+    .navbar-brand{
+        margin-left: 20px !important;
+      } 
+    .navi{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0px;
+    }  
+    .profile-img img{
+        padding-top: 10px !important;
+        width: 70px;
+        height: 70px;
+    } 
+    .search input {
+       
+        width: 360px !important;
+     
+      }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    
+    
+    .navbar-brand{
+        margin-left: 20px !important;
+      } 
+    .navi{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0px;
+    }  
+    .profile-img img{
+        padding-top: 10px !important;
+        width: 70px;
+        height: 70px;
+    } 
+    .search input {
+       
+        width: 360px !important;
+     
+      }
+
+}
+@media only screen and (min-width: 768px) and (max-width:991px){
+    .navbar-brand{
+        margin-left: 20px !important;
+      }
+      .navi{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0px;
+    }  
+    .profile-img img{
+        padding-top: 10px !important;
+        width: 70px;
+        height: 70px;
+    }
+    .search input {
+       
+        width: 400px !important;
+     
+      }
+}

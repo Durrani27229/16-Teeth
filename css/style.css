@@ -8,12 +8,22 @@
 }
 
 .header-top {
-  height: 120px;
+  min-height: 120px;
   background: linear-gradient(90deg, #ebb3ee -48.96%, #ffffff 100%);
 }
 .logo img {
   width: 101px;
   height: 70px;
+}
+.navi{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 55px;
+}
+.navbar-brand{
+  margin-left: 80px;
 }
 .header {
   display: flex;
@@ -119,16 +129,53 @@
 .view-prof a:hover {
   cursor: pointer;
 }
-.profile-img {
+.profile-img{
   width: 70px;
   height: 70px;
 }
+.name .nav-item .profile-img img{
+  width: 70px;
+  height: 70px;
+}
+
+
+
+
+
+
+
+
 
 .sidebar {
   /* width: 100%; */
   height: 1000px;
   background-color: white;
   padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+.nav-item img{
+  width: 21px;
+  height: 21px;
+  margin-right: 10px;
+}
+.nav-item a{
+  text-decoration: none;
+  color: #000000;
+  padding-left: 10px;
+}
+.nav-link{
+  padding: 10px;
+  font-family: "Red Hat Display", serif;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .sidebar ul li {
@@ -1117,5 +1164,36 @@ select {
   font-size: 20px;
   border: 0.5px solid #2F2F2D;
   border-radius: 10px;
-} */
-/* Service Provider Details End */
+} 
+
+.spd-map{
+  height: 284px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  padding: 25px;
+}
+.spd-map iframe{
+  margin-top: 10px;
+  border-radius: 16px;
+}
+.spd-bar{
+  background-color: #ffffff;
+  border-radius: 50px;
+  border: 0.47px solid #ACB4BF;
+  display: flex;
+  justify-content: space-around;
+  /* height: 43px; */
+}
+.spd-bar-btn{
+  width: 135px;
+  height: 38px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Lexend", serif;
+  border: none;
+
+}
+
+ /* Service Provider Details End  */

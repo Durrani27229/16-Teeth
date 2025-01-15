@@ -34,8 +34,8 @@
               class="lh-5 d-flex flex-column justify-content-center align-items-center pt-2 px-1 red-hat"
             >
               <p class="fs-18 fw-700">Profile Name</p>
-              <!-- <p class="view-prof">View Profile</p>÷ -->
-              <div class="view-prof">
+            <!-- <p class="view-prof">View Profile</p> -->
+            <div class="view-prof">
                 <a href="/Pages/Profile/profile.html">View Profile</a>
               </div>
             </div>
@@ -54,7 +54,7 @@
     <div class="container-fluid bg-greyish">
       <div class="container">
         <div class="row">
-           <!-- Sidebar Toggle Button -->
+          <!-- Sidebar Toggle Button -->
         <button class="btn btn-primary d-md-none mb-3" type="button" data-bs-toggle="collapse"
         data-bs-target="#sidebarMenu" aria-expanded="false" aria-controls="sidebarMenu">
         Toggle Menu
@@ -174,44 +174,142 @@
 
           <div class="section col-md-9 col-lg-9 col-xl-9 col-xxl-9">
             <div class="mt-3">
-            <h2 class="lexend">Profile</h2>
+              <h2 class="lexend">Cashout</h2>
             </div>
-            <div class="row mt-3">
-                <div class="profile-pic">
-                    <img src="../../Images/profile1.png" alt="profile">
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-lg-10 col-xxl-10 col-xl-10 col-md-10 col-sm-12">
-                    <div class="profile-detail">
-                            <div>
-                                <i class="fa-solid fa-envelope fs-22"></i>
-                                <p class="fs-18">cristofer@gmail.com</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-phone fs-22"></i>
-                                <p class="fs-18">052-5216621451</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-lock fs-22"></i>
-                                <p class="fs-18">234fgh234</p>
-                            </div>
-                        </div>
-                </div>
+            <div class="row mt-5"> 
+                <div class="col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="cash-cart lexend">
+                      <p class="fs-20 fw-600">Pending Amount</p>
+                      <p class="fs-34 lh-1 txt-orange">18,000 AED</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-lg-4 col-xl-4 col-xxl-">
+                    <div class="cash-cart lexend">
+                      <p class="fs-20 fw-600">Total Cash Out</p>
+                      <p class="fs-30 lh-1 text-danger">1,227 AED</p>
+                    </div>
+                  </div>
             </div>
 
-            <div class="mt-5">
-                <a href="editProfile.html"><button class="profile-btn">Edit Profile</button></a>
+            <div class="row mt-3">
+                <div class="col-lg-12 col-xxl-12 col-xl-12 col-md-12 col-sm-12">
+                    
+                    <div class="booking-history px-3 py-3 mt-2  ">
+                        <div class="booking-title px-3">
+                            <div>
+                                <p class="fs-20 fw-700 red-hat pt-3 ps-5">Recent Bookings</p>
+                            </div>
+                            <div class="d-flex gap-3 lexend">
+                                <div>
+                                    <button class="cash-btn">Add Cashout</button>
+                                </div>
+                                <div class="booking-date">
+                                    <input type="date">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="booking px-3 ">
+                            <table class="table lexend">
+                                <tr class="booking-head ">
+                                    <th class="ps-5 red-hat">Booking ID / Date & Time</th>
+                                    <th>Service</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                </tr>
+                                <tr>
+                                    <td class="lh-5 ps-5">
+                                        <p class="pt-2">545415461</p>
+                                        <p class="fs-14 txt-grey">Today 8:00 PM</p>
+                                    </td>
+                                    <td>
+                                        <p class="txt-grey pt-2">Poolishing Teeth</p>
+                                    </td>
+                                    <td>
+                                        <p class="txt-grey pt-2">USD 50.00</p>
+                                    </td>
+                                    <td>
+                                        <p class="pt-2 fw-600 text-success red-hat">Approved</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="lh-5 ps-5">
+                                        <p class="pt-2">545415461</p>
+                                        <p class="fs-14 txt-grey">Today 8:00 PM</p>
+                                    </td>
+                                    <td>
+                                        <p class="txt-grey pt-2">New smile makeover</p>
+                                    </td>
+                                    <td>
+                                        <p class="txt-grey pt-2">USD 50.00</p>
+                                    </td>
+                                    <td>
+                                        <p class="pt-2 fw-600 text-warning red-hat">Pending</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="lh-5 ps-5">
+                                        <p class="pt-2">545415461</p>
+                                        <p class="fs-14 txt-grey">Today 8:00 PM</p>
+                                    </td>
+                                    <td>
+                                        <p class="txt-grey pt-2 ">Remove Smile</p>
+                                    </td>
+                                    <td>
+                                        <p class="txt-grey pt-2">USD 50.00</p>
+                                    </td>
+                                    <td>
+                                        <p class="pt-2 fw-600 text-danger red-hat">Rejected</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="lh-5 ps-5">
+                                        <p class="pt-2">545415461</p>
+                                        <p class="fs-14 txt-grey">Today 8:00 PM</p>
+                                    </td>
+                                    <td>
+                                        <p class="txt-grey pt-2">Repair one or two teeth</p>
+                                    </td>
+                                    <td>
+                                        <p class="txt-grey pt-2">USD 50.00</p>
+                                    </td>
+                                    <td>
+                                        <p class="pt-2 fw-600 text-success red-hat">Approved</p>
+                                    </td>
+                                </tr>
+                     
+                                <tr>
+                                    <td class="lh-5 ps-5">
+                                        <p class="pt-2">545415461</p>
+                                        <p class="fs-14 txt-grey">Today 8:00 PM</p>
+                                    </td>
+                                    <td>
+                                        <p class="txt-grey pt-2">Poolishing Teeth</p>
+                                    </td>
+                                    <td>
+                                        <p class="txt-grey pt-2">USD 50.00</p>
+                                    </td>
+                                    <td>
+                                        <p class="pt-2 fw-600 text-success red-hat">Approved</p>
+                                    </td>
+                                </tr>
+            
+                            </table>
+                        </div>
+
+                            
+                        
+                    </div>
+                </div>
             </div>
             
             
           
 
-          <!-- Content End-->
+          <!-- Dashboard  End-->
         </div>
       </div>
     </div>
-
+    </div>
     <!-- Main Section End -->
 
     <script src="../../js/bootstrap.js"></script>

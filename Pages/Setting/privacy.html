@@ -1,123 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>16 Teeth</title>
-    <link href="../../css/bootstrap.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../../css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
 
-  <body>
-    <!-- Header Start -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>16 Teeth</title>
+  <link href="../../css/bootstrap.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../../css/style.css" />
+  <link rel="stylesheet" href="../../css/media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-    <div class="conatiner-fluid header-top">
-      <div class="container">
-        <div class="header">
-          <div class="header1">
-            <div class="logo">
-              <img src="../../Images/logo.png" alt="" />
-            </div>
-            <div class="search mt-2">
-              <input type="text" placeholder="Search" />
-            </div>
+<body>
+   <!-- Header Start -->
+
+   <nav class="container-fluid navbar navbar-expand-lg bg-body-tertiary header-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="../../Images/logo.png" alt="Bootstrap" width="101" height="70">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         
+          <li class="nav-item">
+            <form class="d-flex search" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              
+            </form>
+          </li>
+        </ul> -->
+        <div class="navbar-nav navi mb-2 mb-lg-0">
+          <div class="nav-item">
+            <form class="d-flex search" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              
+            </form>
           </div>
-          <div class="name">
+          <div class="name ">
             <div
               class="lh-5 d-flex flex-column justify-content-center align-items-center pt-2 px-1 red-hat"
             >
               <p class="fs-18 fw-700">Profile Name</p>
              <!-- <p class="view-prof">View Profile</p> -->
              <div class="view-prof">
-                <a href="/Pages/Profile/profile.html">View Profile</a>
-              </div>
+              <a href="/Pages/Profile/profile.html">View Profile</a>
+            </div>
             </div>
             <div class="profile-img rounded-circle">
               <img src="../../Images/profile.png" class="img-fluid" alt="" />
             </div>
           </div>
         </div>
+      
       </div>
     </div>
+  </nav>
 
-    <!-- Header End -->
+  <!-- Header End -->
 
-    <!-- Main Section Start -->
+  <!-- Main Section Start -->
 
-    <div class="container-fluid bg-greyish">
-      <div class="container">
-        <div class="row">
-          <!-- SideBar -->
-          <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+  <div class="container-fluid bg-greyish">
+    <div class="container">
+      <div class="row">
+        <!-- Sidebar Toggle Button -->
+        <button class="btn btn-primary d-md-none mb-3" type="button" data-bs-toggle="collapse"
+          data-bs-target="#sidebarMenu" aria-expanded="false" aria-controls="sidebarMenu">
+          Toggle Menu
+        </button>
 
-              <div class="sidebar">
-                <div >
-                  <ul>
-                    <li><img src="../../Images/ds.png" alt="Dashboard"><a href="../../index.html">Dashboard</a></li>
-                    <li><img src="../../Images/bkhstry.png" alt="Booking History"><a href="../Booking/bookingHistory.html">Booking History</a></li>
-                    <li><img src="../../Images/spr.png" alt="Service Provider Request"><a href="../Service Provider Request/serviceProviderRequest.html">Service Provider Request</a></li>
-                    <li><img src="../../Images/sp.png" alt="Service Provider"><a href="../Service Provider Request/serviceProvider.html">Service Provider</a></li>
-                    <li><img src="../../Images/ss.png" alt="Service Seeker"><a href="../Service Seekers/seekers.html">Service Seekers</a></li>
-                    <li><img src="../../Images/los.png" alt="List of Service"><a href="../List Of Services/listofService.html">List of Services</a></li>
-                    <li><img src="../../Images/qm.png" alt="Queries Management"><a href="../Query/query.html">Queries Management</a></li>
-                    <li><img src="../../Images/bn.png" alt="Broadcast Notification"><a href="../Broadcast/broadcast.html">Broadcast Notification</a></li>
-                    <li><img src="../../Images/faq.png" alt="FAQs"><a href="../FAQ/faq.html">Add FAQs</a></li>
-                    <li><img src="../../Images/ref.png " alt="Refferal Program"><a href="../Referral/referral.html">Refferal Program</a></li>
-                    <li><img src="../../Images/chat.png" alt="Chats"><a href="#">Chats</a></li>
-                    <li><img src="../../Images/setting.png" alt="Settings"><a href="setting.html">Settings</a></li>
-                    <li><img src="../../Images/cash.png" alt="Cashout"><a href="../Cashout/cashout.html">Cashout</a></li>
-                    <li class="mt-5 ps-3"><img src="../../Images/logout.png" alt="Logout"><a href="#">Logout</a></li>
-                  </ul>
-                </div>
-             
-              </div>
+        <!-- Sidebar -->
+        <div class="col-md-3">
+          <div id="sidebarMenu" class="collapse d-md-block">
+            <div class="bg-white shadow-sm p-3 rounded">
+              <ul class="nav flex-column pt-4">
+                <li class="nav-item">
+                  <a href="../../index.html" class="nav-link d-flex align-items-center gap-2">
+                    <img src="../../Images/ds.png" alt="Dashboard" class="icon" />
+                    Dashboard
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../Booking/bookingHistory.html" class="nav-link d-flex align-items-center gap-2">
+                    <img src="../../Images/bkhstry.png" alt="Booking History" class="icon" />
+                    Booking History
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../Service Provider Request/serviceProviderRequest.html"
+                    class="nav-link d-flex align-items-center gap-2">
+                    <img src="../../Images/spr.png" alt="Service Provider Request" class="icon" />
+                    Service Provider Request
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../Service Provider Request/serviceProvider.html"
+                    class="nav-link d-flex align-items-center gap-2">
+                    <img src="../../Images/sp.png" alt="Service Provider" class="icon" />
+                    Service Provider
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../Service Seekers/seekers.html" class="nav-link d-flex align-items-center gap-2">
+                    <img src="../../Images/ss.png" alt="Service Seeker" class="icon" />
+                    Service Seekers
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../List Of Services/listofService.html" class="nav-link d-flex align-items-center gap-2">
+                    <img src="../../Images/los.png" alt="List of Service" class="icon" />
+                    List of Services
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../Query/query.html" class="nav-link d-flex align-items-center gap-2">
+                    <img src="../../Images/qm.png" alt="Queries Management" class="icon" />
+                    Queries Management
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../Broadcast/broadcast.html" class="nav-link d-flex align-items-center gap-2">
+                    <img src="../../Images/bn.png" alt="Broadcast Notification" class="icon" />
+                    Broadcast Notification
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../FAQ/faq.html" class="nav-link d-flex align-items-center gap-2">
+                    <img src="../../Images/faq.png" alt="FAQs" class="icon" />
+                    Add FAQs
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../Referral/referral.html" class="nav-link d-flex align-items-center gap-2">
+                    <img src="../../Images/ref.png" alt="Refferal Program" class="icon" />
+                    Referral Program
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link d-flex align-items-center gap-2">
+                    <img src="../../Images/chat.png" alt="Chats" class="icon" />
+                    Chats
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="setting.html" class="nav-link d-flex align-items-center gap-2">
+                    <img src="../../Images/setting.png" alt="Settings" class="icon" />
+                    Settings
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../Cashout/cashout.html" class="nav-link d-flex align-items-center gap-2">
+                    <img src="../../Images/cash.png" alt="Cashout" class="icon" />
+                    Cashout
+                  </a>
+                </li>
 
 
-
+                <li class="nav-item mt-5">
+                  <a href="#" class="nav-link d-flex align-items-center gap-2">
+                    <img src="../../Images/logout.png" alt="Logout" class="icon" />
+                    Logout
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <!-- SideBar -->
+        </div>
 
-          <!-- Content Start-->
+        <!-- SideBar -->
+        <!-- Content Start-->
 
-          <div class="section col-md-9 col-lg-9 col-xl-9 col-xxl-9">
-            <div class="mt-3">
-              <div class="back">
-                <a href="setting.html" ><i class="fa-solid fa-arrow-left"></i></a>
+        <div class="section col-md-9 col-lg-9 col-xl-9 col-xxl-9">
+          <div class="mt-3">
+            <div class="back">
+              <a href="setting.html"><i class="fa-solid fa-arrow-left"></i></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 col-xxl-12 col-xl-12 col-md-12 col-sm-12">
+              <div class="terms">
+                <h2 class="lexend mt-3">Privacy Policy</h2>
+
+                <p class="fs-15 txt-grey mt-2">Lorem ipsum dolor sit amet consectetur. Diam morbi nisl leo aenean
+                  molestie ullamcorper. Ultrices et tristique fringilla varius pretium nisl quisque odio. Vitae porta
+                  lobortis in feugiat arcu ut dui. Tortor mauris fermentum netus tincidunt aliquam. Tempor porttitor
+                  viverra aliquet aliquam pretium.
+                  Ut aliquam tempus eros cursus. Eu lectus sed nisi at adipiscing posuere tristique donec. Ipsum cursus
+                  non bibendum malesuada. Ac placerat neque lobortis etiam ipsum pellentesque massa. Pulvinar sit
+                  pretium elit id purus elit blandit mauris. Eu sed accumsan sit elementum in. Nibh in integer elit in
+                  purus donec consectetur.</p>
+
+                <p class="fs-15 txt-grey">Tortor viverra quam ut nulla. Et tellus leo sit volutpat consequat. Id tellus
+                  sit congue massa congue tortor malesuada egestas quis. Nam nisl ut aliquet elit faucibus lorem at nunc
+                  justo. Facilisis viverra netus tellus enim cras netus malesuada vulputate. At tempor vel nulla
+                  adipiscing lectus magna mi at. Pretium turpis proin viverra at in condimentum. Tellus interdum amet
+                  lorem integer tellus sit est sapien. Velit non interdum curabitur leo scelerisque ac purus leo
+                  praesent. Laoreet et donec semper id rutrum urna mattis. Sed nunc turpis viverra viverra in sit
+                  pellentesque scelerisque. Mi velit viverra penatibus ipsum. Id sem ornare fringilla cursus id amet.
+                </p>
+
+                <p class="fs-15 txt-grey">Pellentesque id purus curabitur tortor. Sagittis et ullamcorper enim tellus
+                  urna at varius massa. Quis magna interdum proin convallis ornare mauris. Nisl lobortis aliquet sed in
+                  iaculis. Nibh sit arcu neque donec vel sed integer sit eu. Tortor risus eget feugiat quam accumsan
+                  vitae. Enim nibh justo phasellus turpis faucibus risus maecenas vivamus pulvinar. Dolor mi magna
+                  tellus ultrices. Vel blandit semper pharetra at.</p>
+
+                <p class="fs-15 txt-grey">
+                  Vestibulum tortor euismod augue quis quisque tempus ut. Neque sit integer ut sit viverra nulla
+                  maecenas aliquam. Malesuada sed auctor eget turpis proin. Nunc nunc tempus neque praesent nunc non
+                  gravida diam. Massa magna cras lorem nulla parturient. At non quis sodales elementum in proin diam
+                  tortor sed. Mi ac sed tellus vulputate mauris proin in. Sit facilisis egestas bibendum euismod elit
+                  pellentesque. Diam ut aliquam cursus a nisl rhoncus. Nunc elementum tortor elementum volutpat posuere
+                  sit nibh. Tempus in aliquam dis tempor.
+                </p>
+
+                <p class="fs-15 txt-grey">
+                  Ac dis est aenean ut massa vel consectetur purus. Bibendum mollis lorem curabitur potenti hendrerit.
+                  Congue neque odio sapien ut nunc elit senectus venenatis. Mi pretium viverra fermentum egestas quam
+                  tortor ultrices. Pharetra arcu est netus vestibulum turpis. Eget lectus nibh sem iaculis donec eu
+                  risus amet adipiscing. Sapien nullam odio magna sed pretium scelerisque arcu purus. Quis porttitor
+                  aliquam viverra dignissim ultrices sed eget aliquet cras. In faucibus ac tellus commodo praesent
+                  pulvinar quis. Sollicitudin scelerisque lobortis sit aliquam elit nunc enim suspendisse a.
+                </p>
+
               </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 col-xxl-12 col-xl-12 col-md-12 col-sm-12">
-                    <div class="terms">
-                        <h2 class="lexend mt-3">Privacy Policy</h2>
+          </div>
 
-                        <p class="fs-15 txt-grey mt-2">Lorem ipsum dolor sit amet consectetur. Diam morbi nisl leo aenean molestie ullamcorper. Ultrices et tristique fringilla varius pretium nisl quisque odio. Vitae porta lobortis in feugiat arcu ut dui. Tortor mauris fermentum netus tincidunt aliquam. Tempor porttitor viverra aliquet aliquam pretium.
-                            Ut aliquam tempus eros cursus. Eu lectus sed nisi at adipiscing posuere tristique donec. Ipsum cursus non bibendum malesuada. Ac placerat neque lobortis etiam ipsum pellentesque massa. Pulvinar sit pretium elit id purus elit blandit mauris. Eu sed accumsan sit elementum in. Nibh in integer elit in purus donec consectetur.</p>
 
-                            <p class="fs-15 txt-grey">Tortor viverra quam ut nulla. Et tellus leo sit volutpat consequat. Id tellus sit congue massa congue tortor malesuada egestas quis. Nam nisl ut aliquet elit faucibus lorem at nunc justo. Facilisis viverra netus tellus enim cras netus malesuada vulputate. At tempor vel nulla adipiscing lectus magna mi at. Pretium turpis proin viverra at in condimentum. Tellus interdum amet lorem integer tellus sit est sapien. Velit non interdum curabitur leo scelerisque ac purus leo praesent. Laoreet et donec semper id rutrum urna mattis. Sed nunc turpis viverra viverra in sit pellentesque scelerisque. Mi velit viverra penatibus ipsum. Id sem ornare fringilla cursus id amet.</p>
 
-                            <p class="fs-15 txt-grey">Pellentesque id purus curabitur tortor. Sagittis et ullamcorper enim tellus urna at varius massa. Quis magna interdum proin convallis ornare mauris. Nisl lobortis aliquet sed in iaculis. Nibh sit arcu neque donec vel sed integer sit eu. Tortor risus eget feugiat quam accumsan vitae. Enim nibh justo phasellus turpis faucibus risus maecenas vivamus pulvinar. Dolor mi magna tellus ultrices. Vel blandit semper pharetra at.</p>
-                            
-                            <p class="fs-15 txt-grey">
-                                Vestibulum tortor euismod augue quis quisque tempus ut. Neque sit integer ut sit viverra nulla maecenas aliquam. Malesuada sed auctor eget turpis proin. Nunc nunc tempus neque praesent nunc non gravida diam. Massa magna cras lorem nulla parturient. At non quis sodales elementum in proin diam tortor sed. Mi ac sed tellus vulputate mauris proin in. Sit facilisis egestas bibendum euismod elit pellentesque. Diam ut aliquam cursus a nisl rhoncus. Nunc elementum tortor elementum volutpat posuere sit nibh. Tempus in aliquam dis tempor.
-                            </p>
-
-                            <p class="fs-15 txt-grey">
-                                Ac dis est aenean ut massa vel consectetur purus. Bibendum mollis lorem curabitur potenti hendrerit. Congue neque odio sapien ut nunc elit senectus venenatis. Mi pretium viverra fermentum egestas quam tortor ultrices. Pharetra arcu est netus vestibulum turpis. Eget lectus nibh sem iaculis donec eu risus amet adipiscing. Sapien nullam odio magna sed pretium scelerisque arcu purus. Quis porttitor aliquam viverra dignissim ultrices sed eget aliquet cras. In faucibus ac tellus commodo praesent pulvinar quis. Sollicitudin scelerisque lobortis sit aliquam elit nunc enim suspendisse a.
-                            </p>
-                            
-                        </div>
-                </div>
-            </div>
-            
-            
-          
 
           <!-- Content End-->
         </div>
@@ -128,5 +245,6 @@
 
     <script src="../../js/bootstrap.js"></script>
     <script src="../../js/app.js"></script>
-  </body>
+</body>
+
 </html>

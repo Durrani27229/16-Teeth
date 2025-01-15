@@ -54,35 +54,121 @@
     <div class="container-fluid bg-greyish">
       <div class="container">
         <div class="row">
-          <!-- SideBar -->
-          <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+           <!-- Sidebar Toggle Button -->
+        <button class="btn btn-primary d-md-none mb-3" type="button" data-bs-toggle="collapse"
+        data-bs-target="#sidebarMenu" aria-expanded="false" aria-controls="sidebarMenu">
+        Toggle Menu
+    </button>
 
-              <div class="sidebar">
-                <div >
-                  <ul>
-                    <li><img src="../../Images/ds.png" alt="Dashboard"><a href="../../index.html">Dashboard</a></li>
-                    <li><img src="../../Images/bkhstry.png" alt="Booking History"><a href="../Booking/bookingHistory.html">Booking History</a></li>
-                    <li><img src="../../Images/spr.png" alt="Service Provider Request"><a href="../Service Provider Request/serviceProviderRequest.html">Service Provider Request</a></li>
-                    <li><img src="../../Images/sp.png" alt="Service Provider"><a href="../Service Provider Request/serviceProvider.html">Service Provider</a></li>
-                    <li><img src="../../Images/ss.png" alt="Service Seeker"><a href="../Service Seekers/seekers.html">Service Seekers</a></li>
-                    <li><img src="../../Images/los.png" alt="List of Service"><a href="../List Of Services/listofService.html">List of Services</a></li>
-                    <li><img src="../../Images/qm.png" alt="Queries Management"><a href="../Query/query.html">Queries Management</a></li>
-                    <li><img src="../../Images/bn.png" alt="Broadcast Notification"><a href="../Broadcast/broadcast.html">Broadcast Notification</a></li>
-                    <li><img src="../../Images/faq.png" alt="FAQs"><a href="#">Add FAQs</a></li>
-                    <li><img src="../../Images/ref.png " alt="Refferal Program"><a href="../Referral/referral.html">Refferal Program</a></li>
-                    <li><img src="../../Images/chat.png" alt="Chats"><a href="#">Chats</a></li>
-                    <li><img src="../../Images/setting.png" alt="Settings"><a href="../Setting/setting.html">Settings</a></li>
-                    <li><img src="../../Images/cash.png" alt="Cashout"><a href="../Cashout/cashout.html">Cashout</a></li>
-                    <li class="mt-5 ps-3"><img src="../../Images/logout.png" alt="Logout"><a href="#">Logout</a></li>
-                  </ul>
-                </div>
-             
-              </div>
+    <!-- Sidebar -->
+    <div class="col-md-3">
+        <div id="sidebarMenu" class="collapse d-md-block">
+            <div class="bg-white shadow-sm p-3 rounded">
+                <ul class="nav flex-column pt-4">
+                    <li class="nav-item">
+                        <a href="../../index.html" class="nav-link d-flex align-items-center gap-2">
+                            <img src="../../Images/ds.png" alt="Dashboard" class="icon" />
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Booking/bookingHistory.html"
+                            class="nav-link d-flex align-items-center gap-2">
+                            <img src="../../Images/bkhstry.png" alt="Booking History" class="icon" />
+                            Booking History
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Service Provider Request/serviceProviderRequest.html"
+                            class="nav-link d-flex align-items-center gap-2">
+                            <img src="../../Images/spr.png" alt="Service Provider Request" class="icon" />
+                            Service Provider Request
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Service Provider Request/serviceProvider.html"
+                            class="nav-link d-flex align-items-center gap-2">
+                            <img src="../../Images/sp.png" alt="Service Provider" class="icon" />
+                            Service Provider
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Service Seekers/seekers.html"
+                            class="nav-link d-flex align-items-center gap-2">
+                            <img src="../../Images/ss.png" alt="Service Seeker" class="icon" />
+                            Service Seekers
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../List Of Services/listofService.html"
+                            class="nav-link d-flex align-items-center gap-2">
+                            <img src="../../Images/los.png" alt="List of Service" class="icon" />
+                            List of Services
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Query/query.html"
+                            class="nav-link d-flex align-items-center gap-2">
+                            <img src="../../Images/qm.png" alt="Queries Management" class="icon" />
+                        Queries Management
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Broadcast/broadcast.html"
+                            class="nav-link d-flex align-items-center gap-2">
+                            <img src="../../Images/bn.png" alt="Broadcast Notification" class="icon" />
+                        Broadcast Notification
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../FAQ/faq.html"
+                            class="nav-link d-flex align-items-center gap-2">
+                            <img src="../../Images/faq.png" alt="FAQs" class="icon" />
+                        Add FAQs
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Referral/referral.html"
+                            class="nav-link d-flex align-items-center gap-2">
+                            <img src="../../Images/ref.png" alt="Refferal Program" class="icon" />
+                        Referral Program
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"
+                            class="nav-link d-flex align-items-center gap-2">
+                            <img src="../../Images/chat.png" alt="Chats" class="icon" />
+                        Chats
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Setting/setting.html"
+                            class="nav-link d-flex align-items-center gap-2">
+                            <img src="../../Images/setting.png" alt="Settings" class="icon" />
+                        Settings
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Cashout/cashout.html"
+                            class="nav-link d-flex align-items-center gap-2">
+                            <img src="../../Images/cash.png" alt="Cashout" class="icon" />
+                        Cashout
+                        </a>
+                    </li>
+                    
+                  
+                    <li class="nav-item mt-5">
+                        <a href="#" class="nav-link d-flex align-items-center gap-2">
+                            <img src="../../Images/logout.png" alt="Logout" class="icon" />
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-
-
-          </div>
-          <!-- SideBar -->
+    <!-- SideBar -->
 
           <!-- Dashboard  Start-->
 
