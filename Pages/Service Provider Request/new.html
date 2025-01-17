@@ -67,309 +67,335 @@
     <!-- Main Section Start -->
 
     <div class="container-fluid bg-greyish">
-        <div class="container">
-            <div class="row">
-                <!-- Sidebar Toggle Button -->
-                <button class="btn btn-primary d-md-none mb-3" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#sidebarMenu" aria-expanded="false" aria-controls="sidebarMenu">
-                    Toggle Menu
-                </button>
-
-                <!-- Sidebar -->
-                <div class="col-md-3">
-                    <div id="sidebarMenu" class="collapse d-md-block">
-                        <div class="bg-white shadow-sm p-3 rounded">
-                            <ul class="nav flex-column pt-4">
-                                <li class="nav-item">
-                                    <a href="../../index.html" class="nav-link d-flex align-items-center gap-2">
-                                        <img src="../../Images/ds.png" alt="Dashboard" class="icon" />
-                                        Dashboard
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../Booking/bookingHistory.html"
-                                        class="nav-link d-flex align-items-center gap-2">
-                                        <img src="../../Images/bkhstry.png" alt="Booking History" class="icon" />
-                                        Booking History
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../Service Provider Request/serviceProviderRequest.html"
-                                        class="nav-link d-flex align-items-center gap-2">
-                                        <img src="../../Images/spr.png" alt="Service Provider Request" class="icon" />
-                                        Service Provider Request
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../Service Provider Request/serviceProvider.html"
-                                        class="nav-link d-flex align-items-center gap-2">
-                                        <img src="../../Images/sp.png" alt="Service Provider" class="icon" />
-                                        Service Provider
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../Service Seekers/seekers.html"
-                                        class="nav-link d-flex align-items-center gap-2">
-                                        <img src="../../Images/ss.png" alt="Service Seeker" class="icon" />
-                                        Service Seekers
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../List Of Services/listofService.html"
-                                        class="nav-link d-flex align-items-center gap-2">
-                                        <img src="../../Images/los.png" alt="List of Service" class="icon" />
-                                        List of Services
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../Query/query.html"
-                                        class="nav-link d-flex align-items-center gap-2">
-                                        <img src="../../Images/qm.png" alt="Queries Management" class="icon" />
-                                    Queries Management
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../Broadcast/broadcast.html"
-                                        class="nav-link d-flex align-items-center gap-2">
-                                        <img src="../../Images/bn.png" alt="Broadcast Notification" class="icon" />
-                                    Broadcast Notification
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../FAQ/faq.html"
-                                        class="nav-link d-flex align-items-center gap-2">
-                                        <img src="../../Images/faq.png" alt="FAQs" class="icon" />
-                                    Add FAQs
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../Referral/referral.html"
-                                        class="nav-link d-flex align-items-center gap-2">
-                                        <img src="../../Images/ref.png" alt="Refferal Program" class="icon" />
-                                    Add FAQs
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#"
-                                        class="nav-link d-flex align-items-center gap-2">
-                                        <img src="../../Images/chat.png" alt="Chats" class="icon" />
-                                    Chats
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../Setting/setting.html"
-                                        class="nav-link d-flex align-items-center gap-2">
-                                        <img src="../../Images/setting.png" alt="Settings" class="icon" />
-                                    Settings
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="../Cashout/cashout.html"
-                                        class="nav-link d-flex align-items-center gap-2">
-                                        <img src="../../Images/cash.png" alt="Cashout" class="icon" />
-                                    Cashout
-                                    </a>
-                                </li>
-                                
-                              
-                                <li class="nav-item mt-5">
-                                    <a href="#" class="nav-link d-flex align-items-center gap-2">
-                                        <img src="../../Images/logout.png" alt="Logout" class="icon" />
-                                        Logout
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+        
+            <div class="container p-0 d-flex h-100">
+                <div class="col-md-3 ">
+                    <div id="bdSidebar" 
+                     class="d-flex flex-column 
+                            flex-shrink-0 
+                            p-3 bg-white
+                            text-white offcanvas-md offcanvas-start rounded">
+                    
+                    <ul class="mynav nav nav-pills flex-column mb-auto">
+                        <li class="nav-item">
+                            <a href="../../index.html" class="nav-link d-flex align-items-center gap-2">
+                                <img src="../../Images/ds.png" alt="Dashboard" class="icon" />
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Booking/bookingHistory.html"
+                                class="nav-link d-flex align-items-center gap-2">
+                                <img src="../../Images/bkhstry.png" alt="Booking History" class="icon" />
+                                Booking History
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="serviceProviderRequest.html"
+                                class="nav-link d-flex align-items-center gap-2">
+                                <img src="../../Images/spr.png" alt="Service Provider Request" class="icon" />
+                                Service Provider Request
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Service Provider Request/serviceProvider.html"
+                                class="nav-link d-flex align-items-center gap-2">
+                                <img src="../../Images/sp.png" alt="Service Provider" class="icon" />
+                                Service Provider
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Service Seekers/seekers.html"
+                                class="nav-link d-flex align-items-center gap-2">
+                                <img src="../../Images/ss.png" alt="Service Seeker" class="icon" />
+                                Service Seekers
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../List Of Services/listofService.html"
+                                class="nav-link d-flex align-items-center gap-2">
+                                <img src="../../Images/los.png" alt="List of Service" class="icon" />
+                                List of Services
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Query/query.html"
+                                class="nav-link d-flex align-items-center gap-2">
+                                <img src="../../Images/qm.png" alt="Queries Management" class="icon" />
+                            Queries Management
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Broadcast/broadcast.html"
+                                class="nav-link d-flex align-items-center gap-2">
+                                <img src="../../Images/bn.png" alt="Broadcast Notification" class="icon" />
+                            Broadcast Notification
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../FAQ/faq.html"
+                                class="nav-link d-flex align-items-center gap-2">
+                                <img src="../../Images/faq.png" alt="FAQs" class="icon" />
+                            Add FAQs
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Referral/referral.html"
+                                class="nav-link d-flex align-items-center gap-2">
+                                <img src="../../Images/ref.png" alt="Refferal Program" class="icon" />
+                            Referral Program
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"
+                                class="nav-link d-flex align-items-center gap-2">
+                                <img src="../../Images/chat.png" alt="Chats" class="icon" />
+                            Chats
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Setting/setting.html"
+                                class="nav-link d-flex align-items-center gap-2">
+                                <img src="../../Images/setting.png" alt="Settings" class="icon" />
+                            Settings
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Cashout/cashout.html"
+                                class="nav-link d-flex align-items-center gap-2">
+                                <img src="../../Images/cash.png" alt="Cashout" class="icon" />
+                            Cashout
+                            </a>
+                        </li>
+                        
+                      
+                        <li class="nav-item mt-5">
+                            <a href="#" class="nav-link d-flex align-items-center gap-2">
+                                <img src="../../Images/logout.png" alt="Logout" class="icon" />
+                                Logout
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    
                 </div>
-    
-                <!-- SideBar -->
+                </div>
+        
 
-                <!-- Content Start-->
 
                 <div class="section col-md-9 col-lg-9 col-xl-9 col-xxl-9">
-                    <div class="mt-3">
-                        <h2 class="lexend">Service Provider Request</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12 col-xxl-12 col-xl-12 col-md-12 col-sm-12">
-
-                            <div class="booking-history px-3 py-3 mt-2  ">
-                                <div class="booking-title px-3">
-                                    <div>
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option selected>All</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-                                    </div>
-                                    <div>
-                                        <input type="date">
-                                    </div>
-                                </div>
-                                <div class="booking px-3 mt-4 ">
-                                    <table class="table lexend">
-                                        <tr class="booking-head ">
-                                            <th class="ps-5 red-hat">User ID / Date Joined</th>
-                                            <th>Email Address</th>
-                                            <th>Action</th>
-                                        </tr>
-                                        <tr>
-                                            <td class="lh-5 ps-5">
-                                                <p class="pt-3">545415461</p>
-                                                <p class="fs-14 txt-grey">Today 8:00 PM</p>
-                                            </td>
-                                            <td>
-                                                <p class="txt-grey pt-3">Kianna@gmail.com</p>
-                                            </td>
-                                            <td>
-                                                <div class="service-provider-btns pt-3">
-                                                    <div class="d-flex gap-2">
-                                                        <button class="service-approve-btn">Approve</button>
-                                                        <button class="service-disapprove-btn">Disapprove</button>
-
-                                                    </div>
-                                                    <div>
-                                                        <button class="eye-btn"></button>
-                                                    </div>
-                                                </div>
-                                            </td>
-
-                                        </tr>
-                                        <tr>
-                                            <td class="lh-5 ps-5">
-                                                <p class="pt-3">545415461</p>
-                                                <p class="fs-14 txt-grey">Today 8:00 PM</p>
-                                            </td>
-                                            <td>
-                                                <p class="txt-grey pt-3">Erin@gmail.com</p>
-                                            </td>
-                                            <td>
-                                                <div class="service-provider-btns pt-3">
-                                                    <div class="d-flex gap-2">
-                                                        <button class="service-approve-btn">Approve</button>
-                                                        <button class="service-disapprove-btn">Disapprove</button>
-
-                                                    </div>
-                                                    <div>
-                                                        <button class="eye-btn"></button>
-                                                    </div>
-                                                </div>
-                                            </td>
-
-                                        </tr>
-                                        <tr>
-                                            <td class="lh-5 ps-5">
-                                                <p class="pt-3">545415461</p>
-                                                <p class="fs-14 txt-grey">Today 8:00 PM</p>
-                                            </td>
-                                            <td>
-                                                <p class="txt-grey pt-3">Carter@gmail.com</p>
-                                            </td>
-                                            <td>
-                                                <div class="service-provider-btns pt-3">
-                                                    <div class="d-flex gap-2">
-                                                        <button class="service-approve-btn">Approve</button>
-                                                        <button class="service-disapprove-btn">Disapprove</button>
-
-                                                    </div>
-                                                    <div>
-                                                        <button class="eye-btn"></button>
-                                                    </div>
-                                                </div>
-                                            </td>
-
-                                        </tr>
-                                        <tr>
-                                            <td class="lh-5 ps-5">
-                                                <p class="pt-3">545415461</p>
-                                                <p class="fs-14 txt-grey">Today 8:00 PM</p>
-                                            </td>
-                                            <td>
-                                                <p class="txt-grey pt-3">Ruben@gmail.com</p>
-                                            </td>
-                                            <td>
-                                                <div class="service-provider-btns pt-3">
-                                                    <div class="d-flex gap-2">
-                                                        <button class="service-approve-btn">Approve</button>
-                                                        <button class="service-disapprove-btn">Disapprove</button>
-
-                                                    </div>
-                                                    <div>
-                                                        <button class="eye-btn"></button>
-                                                    </div>
-                                                </div>
-                                            </td>
-
-                                        </tr>
-                                        <tr>
-                                            <td class="lh-5 ps-5">
-                                                <p class="pt-3">545415461</p>
-                                                <p class="fs-14 txt-grey">Today 8:00 PM</p>
-                                            </td>
-                                            <td>
-                                                <p class="txt-grey pt-3">Miracle@gmail.com</p>
-                                            </td>
-                                            <td>
-                                                <div class="service-provider-btns pt-3">
-                                                    <div class="d-flex gap-2">
-                                                        <button class="service-approve-btn">Approve</button>
-                                                        <button class="service-disapprove-btn">Disapprove</button>
-
-                                                    </div>
-                                                    <div>
-                                                        <button class="eye-btn"></button>
-                                                    </div>
-                                                </div>
-                                            </td>
-
-                                        </tr>
-                                        <tr>
-                                            <td class="lh-5 ps-5">
-                                                <p class="pt-3">545415461</p>
-                                                <p class="fs-14 txt-grey">Today 8:00 PM</p>
-                                            </td>
-                                            <td>
-                                                <p class="txt-grey pt-3">Gustavo@gmail.com</p>
-                                            </td>
-                                            <td>
-                                                <div class="service-provider-btns pt-3">
-                                                    <div class="d-flex gap-2">
-                                                        <button class="service-approve-btn">Approve</button>
-                                                        <button class="service-disapprove-btn">Disapprove</button>
-
-                                                    </div>
-                                                    <div>
-                                                        <button class="eye-btn"></button>
-                                                    </div>
-                                                </div>
-                                            </td>
-
-                                        </tr>
-
-
-
-                                    </table>
-                                </div>
-
-
-
+                    <div class="px-2 flex-fill">
+                        <div class="p-2 d-md-none d-flex txt-pink">
+                            <a href="#" class="text-white" 
+                               data-bs-toggle="offcanvas"
+                               data-bs-target="#bdSidebar">
+                                <i class="fa-solid fa-bars"></i>
+                            </a>
+                            <span class="ms-3">16 Teeth</span>
+                        </div>
+                        <div class="mt-3">
+                            <h2 class="lexend">Service Provider</h2>
+                          </div>
+                          <div class="row">
+                              <div class="col-lg-12 col-xxl-12 col-xl-12 col-md-12 col-sm-12">
+                                  
+                                  <div class="booking-history px-3 py-3 mt-2  ">
+                                      <div class="seeker-title px-3">
+                                          <div>
+                                              <select class="form-select" aria-label="Default select example">
+                                                  <option selected>All</option>
+                                                  <option value="1">One</option>
+                                                  <option value="2">Two</option>
+                                                  <option value="3">Three</option>
+                                                </select>
+                                          </div>
+                                          <div>
+                                              <select class="form-select" aria-label="Default select example">
+                                                  <option selected>28 Dec,2023</option>
+                                                  <option value="1">One</option>
+                                                  <option value="2">Two</option>
+                                                  <option value="3">Three</option>
+                                                </select>
+                                          </div>
+                                      </div>
+                                      <div class="booking px-3 mt-4 ">
+                                          <table class="table lexend table-responsive main-table ">
+                                              <tr class="booking-head ">
+                                                  <th class="ps-5 red-hat">ID</th>
+                                                  <th>Name</th>
+                                                  <th>Total Booking</th>
+                                                  <th>Category</th>
+                                                  <th>Status</th>
+                                              </tr>
+                                              <tr class="s-table-row">
+                                                  <td class="lh-5 ps-5">
+                                                      <p class="pt-3">545415461</p>
+                                                      <p class="fs-14 txt-grey s-date">Today 8:00 PM</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">Kianna Carder</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">10</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">Standard</p>
+                                                  </td>
+                                                  <td>
+                                                      <div class="query-status me-3 pt-3">
+                                                          <p class="text-success fw-600">Active</p>
+                                                         <p><img src="../../Images/3dot.png" alt="3dots"></p>
+                                                         </div>
+                                                  </td>
+                                              </tr>
+                                              <tr class="s-table-row">
+                                                  <td class="lh-5 ps-5">
+                                                      <p class="pt-3">545415461</p>
+                                                      <p class="fs-14 txt-grey s-date">Today 8:00 PM</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">Erin Torff</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">10</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">Featured</p>
+                                                  </td>
+                                                  <td>
+                                                      <div class="query-status me-3 pt-3">
+                                                          <p class="text-danger fw-600">Suspended</p>
+                                                         <p><img src="../../Images/3dot.png" alt="3dots"></p>
+                                                         </div>
+                                                  </td>
+                                              </tr>
+                                              <tr class="s-table-row">
+                                                  <td class="lh-5 ps-5">
+                                                      <p class="pt-3">545415461</p>
+                                                      <p class="fs-14 txt-grey s-date">Today 8:00 PM</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">Carter Rhiel Madsen</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">10</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">Featured</p>
+                                                  </td>
+                                                  <td>
+                                                      <div class="query-status me-3 pt-3">
+                                                          <p class="text-danger fw-600">Suspended</p>
+                                                         <p><img src="../../Images/3dot.png" alt="3dots"></p>
+                                                         </div>
+                                                  </td>
+                                              </tr>
+                                              <tr class="s-table-row">
+                                                  <td class="lh-5 ps-5">
+                                                      <p class="pt-3">545415461</p>
+                                                      <p class="fs-14 txt-grey s-date">Today 8:00 PM</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">Ruben Curtis</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">10</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">Standard</p>
+                                                  </td>
+                                                  <td>
+                                                      <div class="query-status me-3 pt-3">
+                                                          <p class="text-success fw-600">Active</p>
+                                                         <p><img src="../../Images/3dot.png" alt="3dots"></p>
+                                                         </div>
+                                                  </td>
+                                              </tr>
+                                              <tr class="s-table-row">
+                                                  <td class="lh-5 ps-5">
+                                                      <p class="pt-3">545415461</p>
+                                                      <p class="fs-14 txt-grey s-date">Today 8:00 PM</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">Miracle Carder</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">10</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">Standard</p>
+                                                  </td>
+                                                  <td>
+                                                      <div class="query-status me-3 pt-3">
+                                                          <p class="text-danger fw-600">Suspended</p>
+                                                         <p><img src="../../Images/3dot.png" alt="3dots"></p>
+                                                         </div>
+                                                  </td>
+                                              </tr>
+                                              <tr class="s-table-row">    
+                                                  <td class="lh-5 ps-5">
+                                                      <p class="pt-3">545415461</p>
+                                                      <p class="fs-14 txt-grey s-date">Today 8:00 PM</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">Gustavo Dorwart</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">10</p>
+                                                  </td>
+                                                  <td>
+                                                      <p class="txt-grey pt-3">Black Listed</p>
+                                                  </td>
+                                                  <td>
+                                                      <div class="query-status me-3 pt-3">
+                                                          <p class="text-success fw-600">Active</p>
+                                                         <p><img src="../../Images/3dot.png" alt="3dots"></p>
+                                                         </div>
+                                                  </td>
+                                              </tr>
+                                          
+                          
+                                          </table>
+                                      </div>
+              
+                                          
+                                      
+                                  </div>
+                              </div>
+                          </div>
+                </div>
+                
+                    <!-- <div class="p-4">
+                        <nav style="--bs-breadcrumb-divider:'>';font-size:14px">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <i class="fa-solid fa-house"></i>
+                                </li>
+                                <li class="breadcrumb-item">Learning Content</li>
+                                <li class="breadcrumb-item">Next Page</li>
+                            </ol>
+                        </nav>
+        
+                        <hr>
+                        <div class="row">
+                            <div class="col">
+                                <p>Page content goes here</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
+                    
 
-
-
-                    <!-- Dashboard  End-->
+        
                 </div>
             </div>
-        </div>
+        
     </div>
     <!-- Main Section End -->
 
-    <script src="../../js/bootstrap.js"></script>
+    <script src="../../js/bootstrap.js">
+        
+    </script>
     <script src="../../js/app.js"></script>
 </body>
 

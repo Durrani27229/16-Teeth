@@ -6,6 +6,7 @@
     <title>16 Teeth</title>
     <link href="../../css/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/media.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -18,36 +19,53 @@
   <body>
     <!-- Header Start -->
 
-    <div class="conatiner-fluid header-top">
-      <div class="container">
-        <div class="header">
-          <div class="header1">
-            <div class="logo">
-              <img src="../../Images/logo.png" alt="" />
+    <nav class="container-fluid navbar navbar-expand-lg bg-body-tertiary header-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="../../Images/logo.png" alt="Bootstrap" width="101" height="70">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+              <li class="nav-item">
+                <form class="d-flex search" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  
+                </form>
+              </li>
+            </ul> -->
+            <div class="navbar-nav navi mb-2 mb-lg-0">
+              <div class="nav-item">
+                <form class="d-flex search" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  
+                </form>
+              </div>
+              <div class="name ">
+                <div
+                  class="lh-5 d-flex flex-column justify-content-center align-items-center pt-2 px-1 red-hat"
+                >
+                  <p class="fs-18 fw-700">Profile Name</p>
+                 <!-- <p class="view-prof">View Profile</p> -->
+                 <div class="view-prof">
+                  <a href="/Pages/Profile/profile.html">View Profile</a>
+                </div>
+                </div>
+                <div class="profile-img rounded-circle">
+                  <img src="../../Images/profile.png" class="img-fluid" alt="" />
+                </div>
+              </div>
             </div>
-            <div class="search mt-2">
-              <input type="text" placeholder="Search" />
-            </div>
-          </div>
-          <div class="name">
-            <div
-              class="lh-5 d-flex flex-column justify-content-center align-items-center pt-2 px-1 red-hat"
-            >
-              <p class="fs-18 fw-700">Profile Name</p>
-             <!-- <p class="view-prof">View Profile</p> -->
-             <div class="view-prof">
-              <a href="/Pages/Profile/profile.html">View Profile</a>
-            </div>
-            </div>
-            <div class="profile-img rounded-circle">
-              <img src="../../Images/profile.png" class="img-fluid" alt="" />
-            </div>
+          
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Header End -->
+      </nav>
+    
+      <!-- Header End -->
 
     <!-- Main Section Start -->
 
