@@ -217,6 +217,134 @@ font-size: 13px !important;
 .s-table-row td:first-child{
   padding-left: 15px !important;
 }
+
+
+
+
+
+.my-client-head{
+  display: flex;
+  flex-direction: column !important;
+
+}
+.client-head-inner{
+  display: flex;
+  justify-content: space-between !important;
+  width: 100% !important;
+}
+.my-client-btn{
+  background-color: #2f2f2d;
+  color: #ffffff;
+  padding: 5px 12px !important;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+.client-booking-title {
+  display: flex;
+  flex-direction: column !important;
+  align-items: start !important;
+
+}
+
+.client-booking-head{
+  display: flex;
+  flex-direction: column !important;
+  width: 100% !important;
+  margin-bottom: 10px ! important;
+}
+
+.download-icons{
+  background-color: #FE0DC91A;
+  width: 100% ! important;
+  display: flex
+;
+  font-size: 12px;
+  gap: 7px;
+  justify-content: center;
+  /* padding-top: 9px; */
+  align-items: center;
+  height: 36px;
+  border-radius: 8px;
+}
+
+
+.client-btn-group {
+  height: 42px;
+  border: none !important;
+  border-radius: 20px;
+  padding: 2px;
+  width: 100%;
+}
+.client-btn-booking {
+  font-size: 12px !important;
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  border-radius: 50px;
+  width: 48.1% ! important;
+  height: 37px;
+  border: none;
+}
+.client-btn-record {
+  font-size: 12px !important;
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  border-radius: 50px;
+  width: 48.1%    ! important;
+  height: 37px;
+  border: none;
+}
+.client-date{
+  width: 100%;
+}
+.client-date input{
+  width: 100% !important;
+  font-size: 16px !important;
+}
+
+
+
+
+.spd-bar{
+  margin-top: 10px !important;
+}
+.spd-bar-btn {
+  width: 85px !important;
+  height: 32px ! important;
+  border-radius: 50px;
+  background-color: #ffffff;
+  font-size: 9px  ! important;
+  font-weight: 600;
+  font-family: "Lexend", serif;
+  border: none;
+}
+
+.service-provider-docs-list p{
+  font-size: 15px ! important;
+}
+
+.spd-btn {
+  width: 100px !important;
+  height: 34px !important;
+  border: 1px solid #2f2f2d;
+  font-size: 14px ! important;
+  border-radius: 10px;
+  font-weight: 500;
+  font-family: "Lexend", serif;
+  color: #ffffff;
+  background-color: #2f2f2d;
+}
+
+#sidebarMenu{
+  position: absolute;
+  z-index: 1;
+}
+
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .navbar-brand {
@@ -343,6 +471,112 @@ font-size: 14px !important;
 }
 .s-table-row td:first-child{
   padding-left: 15px !important;
+}
+
+
+
+
+
+.my-client-head{
+  display: flex;
+  flex-direction: column !important;
+
+}
+.client-head-inner{
+  display: flex;
+  justify-content: flex-end !important;
+  width: 100% !important;
+}
+
+
+
+
+
+
+.client-booking-title {
+  display: flex;
+  flex-direction: column !important;
+  align-items: start !important;
+
+}
+
+.client-booking-head{
+  display: flex;
+  flex-direction: column !important;
+  width: 100% !important;
+  margin-bottom: 10px ! important;
+}
+
+.download-icons{
+  background-color: #FE0DC91A;
+  width: 100% ! important;
+  display: flex
+;
+  font-size: 12px;
+  gap: 7px;
+  justify-content: center;
+  /* padding-top: 9px; */
+  align-items: center;
+  height: 36px;
+  border-radius: 8px;
+}
+
+
+.client-btn-group {
+  height: 42px;
+  border: 0.47px solid #949bab66;
+  border-radius: 20px;
+  padding: 2px;
+  width: 100%;
+}
+.client-btn-booking {
+  font-size: 14px;
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  border-radius: 50px;
+  width: 50% ! important;
+  height: 37px;
+  border: none;
+}
+.client-btn-record {
+  font-size: 14px;
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  border-radius: 50px;
+  width: 49%    ! important;
+  height: 37px;
+  border: none;
+}
+.client-date{
+  width: 100%;
+}
+.client-date input{
+  width: 100% !important;
+  font-size: 16px !important;
+}
+
+
+
+
+.spd-bar{
+  margin-top: 10px !important;
+}
+.spd-bar-btn {
+  width: 85px !important;
+  height: 32px ! important;
+  border-radius: 50px;
+  background-color: #ffffff;
+  font-size: 9px  ! important;
+  font-weight: 600;
+  font-family: "Lexend", serif;
+  border: none;
+}
+
+
+
+#sidebarMenu{
+  position: absolute;
+  z-index: 1;
 }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -523,6 +757,97 @@ font-size: 14px !important;
   padding-left: 15px !important;
 }
 
+
+
+
+.my-client-head{
+  display: flex;
+  flex-direction: column !important;
+
+}
+.client-head-inner{
+  display: flex;
+  justify-content: flex-end !important;
+  width: 100% !important;
+}
+.client-booking-title {
+  display: flex;
+  flex-direction: column !important;
+  align-items: start !important;
+
+}
+
+.client-booking-head{
+  display: flex;
+  flex-direction: column !important;
+  width: 100% !important;
+  margin-bottom: 10px ! important;
+}
+
+.download-icons{
+  background-color: #FE0DC91A;
+  width: 100% ! important;
+  display: flex
+;
+  font-size: 12px;
+  gap: 7px;
+  justify-content: center;
+  /* padding-top: 9px; */
+  align-items: center;
+  height: 36px;
+  border-radius: 8px;
+}
+
+
+.client-btn-group {
+  height: 42px;
+  border: 0.47px solid #949bab66;
+  border-radius: 20px;
+  padding: 2px;
+  width: 100%;
+}
+.client-btn-booking {
+  font-size: 14px;
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  border-radius: 50px;
+  width: 50% ! important;
+  height: 37px;
+  border: none;
+}
+.client-btn-record {
+  font-size: 14px;
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  border-radius: 50px;
+  width: 49%    ! important;
+  height: 37px;
+  border: none;
+}
+.client-date{
+  width: 100%;
+}
+.client-date input{
+  width: 100% !important;
+  font-size: 16px !important;
+}
+
+.spd-bar{
+  margin-top: 10px !important;
+}
+.spd-bar-btn {
+  width: 85px !important;
+  height: 32px ! important;
+  border-radius: 50px;
+  background-color: #ffffff;
+  font-size: 9px  ! important;
+  font-weight: 600;
+  font-family: "Lexend", serif;
+  border: none;
+}
+
+
+
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .db-num {
@@ -587,6 +912,65 @@ font-size: 14px !important;
 }
 
 
+
+.client-booking-title {
+  display: flex;
+  flex-direction: column !important;
+  align-items: start !important;
+
+}
+
+.client-booking-head{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px ! important;
+}
+
+
+.client-btn-group {
+  height: 42px;
+  border: 0.47px solid #949bab66;
+  border-radius: 20px;
+  padding: 2px;
+}
+.client-btn-booking {
+  font-size: 14px;
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  border-radius: 50px;
+  width: 90px ! important;
+  height: 37px;
+  border: none;
+}
+.client-btn-record {
+  font-size: 14px;
+  font-family: "Red Hat Display";
+  font-weight: 600;
+  border-radius: 50px;
+  width: 90px    ! important;
+  height: 37px;
+  border: none;
+}
+.client-date input{
+  width: 138px;
+  font-size: 14px !important;
+}
+.spd-bar-btn {
+  width: 90px !important;
+  height: 38px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: "Lexend", serif;
+  border: none;
+}
+.spd-bar{
+  width: 540px !important;
+  margin-left: 20px ! important;
+}
+
 }
 
 
@@ -621,6 +1005,79 @@ font-size: 14px !important;
     justify-content: end;
     width: 100%;
     gap: 7px;
+  }
+
+
+
+  .client-booking-head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px ;
+  }
+  .download-icons{
+    background-color: #FE0DC91A;
+    width: 250px;
+    display: flex
+  ;
+    font-size: 12px;
+    gap: 7px;
+    justify-content: center;
+    /* padding-top: 9px; */
+    align-items: center;
+    height: 36px;
+    border-radius: 8px;
+  }
+  .client-booking-title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+
+
+  .client-btn-group {
+    height: 42px;
+    border: 0.47px solid #949bab66;
+    border-radius: 20px;
+    padding: 2px;
+  }
+  .client-btn-booking {
+    font-size: 14px;
+    font-family: "Red Hat Display";
+    font-weight: 600;
+    border-radius: 50px;
+    width: 100px ! important;
+    height: 37px;
+    border: none;
+  }
+  .client-btn-record {
+    font-size: 14px;
+    font-family: "Red Hat Display";
+    font-weight: 600;
+    border-radius: 50px;
+    width: 100px    ! important;
+    height: 37px;
+    border: none;
+  }
+  .client-date input{
+    width: 138px;
+    font-size: 14px !important;
+  }
+
+
+
+  .spd-bar-btn {
+    width: 130px !important;
+    height: 38px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Lexend", serif;
+    border: none;
   }
 }
 

@@ -193,27 +193,33 @@
 
           <div class="section col-md-9 col-lg-9 col-xl-9 col-xxl-9">
             <div class="mt-3">
-              <h2 class="lexend">Booking History</h2>
+              <h2 class="lexend"> <i class="fa-solid fa-arrow-left"></i> Client Details</h2>
             </div>
             <div class="row">
                 <div class="col-lg-12 col-xxl-12 col-xl-12 col-md-12 col-sm-12">
                     
                     <div class="booking-history px-3 py-3 mt-2  ">
-                        <div class="booking-title px-3">
+                        <div class="client-booking-title px-3">
                             <div>
-                                <p class="fs-20 fw-700 red-hat pt-3 ps-5 ps-0">Bookings</p>
+                                <p class="fs-20 fw-700 red-hat pt-3 ps-0">Bookings</p>
                             </div>
-                            <div class="booking-form lexend">
-                                <div class="btn-group">
-                                    <button class="btn-physical" id="physical-btn" onclick="physicalButton()">Physical</button>
-                                    <button class="btn-online" id="online-btn" onclick="onlineButton()">Online</button>
+                            <div class="client-booking-head lexend">
+                                <div class="download-icons">
+                                    <i class="fa-solid fa-file txt-pink"></i>
+                                    <p>PDF</p>
+                                    <i class="fa-solid fa-file-csv txt-pink"></i>
+                                    <p>CSV</p>
+                                    <i class="fa-solid fa-file-excel txt-pink"></i>
+                                    <p>EXCEL</p>
+                                    <i class="fa-solid fa-share-nodes txt-pink"></i>
+                                    <p>SHARE</p>
                                 </div>
-                                <div class="booking-date">
+                                <div class="client-btn-group">
+                                    <button class="client-btn-booking" id="physical-btn" onclick="physicalButton()">Booking</button>
+                                    <button class="client-btn-record" id="online-btn" onclick="onlineButton()">Record</button>
+                                </div>
+                                <div class="client-date">
                                     <input type="date">
-                                </div>
-                                <div class="booking-icon ">
-                                    <img src="../../Images/toggler.png" alt="toggler">
-                                    <img src="../../Images/Calendar.png" alt="Calendar">
                                 </div>
                             </div>
                         </div>

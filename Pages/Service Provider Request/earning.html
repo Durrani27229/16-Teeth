@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>16 Teeth</title>
+    <link href="../../css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header Start -->
+
+    <nav class="container-fluid navbar navbar-expand-lg bg-body-tertiary header-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../../Images/logo.png" alt="Bootstrap" width="101" height="70">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+              <li class="nav-item">
+                <form class="d-flex search" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  
+                </form>
+              </li>
+            </ul> -->
+                <div class="navbar-nav navi mb-2 mb-lg-0">
+                    <div class="nav-item">
+                        <form class="d-flex search" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+                        </form>
+                    </div>
+                    <div class="name ">
+                        <div
+                            class="lh-5 d-flex flex-column justify-content-center align-items-center pt-2 px-1 red-hat">
+                            <p class="fs-18 fw-700">Profile Name</p>
+                            <!-- <p class="view-prof">View Profile</p> -->
+                            <div class="view-prof">
+                                <a href="/Pages/Profile/profile.html">View Profile</a>
+                            </div>
+                        </div>
+                        <div class="profile-img rounded-circle">
+                            <img src="../../Images/profile.png" class="img-fluid" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header End -->
+
+    <!-- Main Section Start -->
+
+    <div class="container-fluid bg-greyish">
+        <div class="container">
+            <div class="row">
+                <!-- Sidebar Toggle Button -->
+                <button class="btn btn-primary d-md-none mb-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#sidebarMenu" aria-expanded="false" aria-controls="sidebarMenu">
+                    Toggle Menu
+                </button>
+
+                <!-- Sidebar -->
+                <div class="col-md-3">
+                    <div id="sidebarMenu" class="collapse d-md-block">
+                        <div class="bg-white shadow-sm p-3 rounded">
+                            <ul class="nav flex-column pt-4">
+                                <li class="nav-item">
+                                    <a href="../../index.html" class="nav-link d-flex align-items-center gap-2">
+                                        <img src="../../Images/ds.png" alt="Dashboard" class="icon" />
+                                        Dashboard
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../Booking/bookingHistory.html"
+                                        class="nav-link d-flex align-items-center gap-2">
+                                        <img src="../../Images/bkhstry.png" alt="Booking History" class="icon" />
+                                        Booking History
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="serviceProviderRequest.html"
+                                        class="nav-link d-flex align-items-center gap-2">
+                                        <img src="../../Images/spr.png" alt="Service Provider Request" class="icon" />
+                                        Service Provider Request
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="serviceProvider.html" class="nav-link d-flex align-items-center gap-2">
+                                        <img src="../../Images/sp.png" alt="Service Provider" class="icon" />
+                                        Service Provider
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../Service Seekers/seekers.html"
+                                        class="nav-link d-flex align-items-center gap-2">
+                                        <img src="../../Images/ss.png" alt="Service Seeker" class="icon" />
+                                        Service Seekers
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../List Of Services/listofService.html"
+                                        class="nav-link d-flex align-items-center gap-2">
+                                        <img src="../../Images/los.png" alt="List of Service" class="icon" />
+                                        List of Services
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../Query/query.html" class="nav-link d-flex align-items-center gap-2">
+                                        <img src="../../Images/qm.png" alt="Queries Management" class="icon" />
+                                        Queries Management
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../Broadcast/broadcast.html"
+                                        class="nav-link d-flex align-items-center gap-2">
+                                        <img src="../../Images/bn.png" alt="Broadcast Notification" class="icon" />
+                                        Broadcast Notification
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../FAQ/faq.html" class="nav-link d-flex align-items-center gap-2">
+                                        <img src="../../Images/faq.png" alt="FAQs" class="icon" />
+                                        Add FAQs
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../Referral/referral.html"
+                                        class="nav-link d-flex align-items-center gap-2">
+                                        <img src="../../Images/ref.png" alt="Refferal Program" class="icon" />
+                                        Referral Program
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link d-flex align-items-center gap-2">
+                                        <img src="../../Images/chat.png" alt="Chats" class="icon" />
+                                        Chats
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../Setting/setting.html" class="nav-link d-flex align-items-center gap-2">
+                                        <img src="../../Images/setting.png" alt="Settings" class="icon" />
+                                        Settings
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../Cashout/cashout.html" class="nav-link d-flex align-items-center gap-2">
+                                        <img src="../../Images/cash.png" alt="Cashout" class="icon" />
+                                        Cashout
+                                    </a>
+                                </li>
+
+
+                                <li class="nav-item mt-5">
+                                    <a href="#" class="nav-link d-flex align-items-center gap-2">
+                                        <img src="../../Images/logout.png" alt="Logout" class="icon" />
+                                        Logout
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SideBar -->
+
+                <!-- Content Start-->
+
+                <div class="section col-md-9 col-lg-9 col-xl-9 col-xxl-9">
+                    <div class="mt-3">
+                        <h2 class="lexend">Service Provider Detail</h2>
+                    </div>
+
+                    <div class="row user-profile-header">
+                        <div class="col-lg-2 col-xxl-2 col-xl-2 col-md-12 col-sm-12">
+                            <div class="spd-img mt-3">
+                                <img src="../../Images/service img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-10 col-xxl-10 col-xl-10 col-md-12 col-sm-12">
+                            <div class="spd-bar">
+                                <button class="spd-bar-btn" id="btn-personal">Personal Detail</button>
+                                <button class="spd-bar-btn" id="btn-booking">Bookings</button>
+                                <button class="spd-bar-btn" id="btn-dispute">Dispute</button>
+                                <button class="spd-bar-btn" id="btn-reviews">Reviews</button>
+                                <button class="spd-bar-btn" id="btn-clients">My Clients</button>
+                                <button class="spd-bar-btn" id="btn-earnings">Earnings</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row lexend mt-3">
+                        <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 db-div">
+                          <div class="booking-cart-green">
+                            <p class="db-title">Complete Booking</p>
+                            <p class="fs-30 db-num lh-1">1,227</p>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 db-div">
+                          <div class="booking-cart-yellow">
+                            <p class="db-title">Pending Booking</p>
+                            <p class="fs-30 db-num  lh-1">1,227</p>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3 db-div">
+                          <div class="booking-cart-red">
+                            <p class="db-title">Cancelled Booking</p>
+                            <p class="fs-30 db-num  lh-1">1245</p>
+                          </div>
+                        </div>
+                        
+                      </div>
+
+                    
+
+
+
+                    <div class="row mt-3">
+                        <div class="col-lg-12 col-xxl-12 col-xl-12 col-md-12 col-sm-12">
+
+                            <div class="broadcast px-3 py-3 mt-2  ">
+                                <div class="my-client-head">
+                                    <div>
+                                        <p class="h3 red-hat fw-700">Earning</p>
+                                    </div>
+                                    <div class="client-head-inner">
+                                       <div>
+                                        <button class="my-client-btn red-hat">Add Cashout</button>
+                                       </div>
+                                        <div>
+                                            <input type="date">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                
+
+                                <div class="booking table-responsive mt-2 ">
+                                    <table class="table lexend  main-table">
+                                        <tr class="booking-head booking-table-header ">
+                                            <th class="ps-5 ps-0 red-hat ">Booking ID / Date & Time</th>
+                                            <th>Service</th>
+                                            <th>Amount</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="lh-5 ps-5 ps-0">
+                                                <p class="pt-2 book-id">545415461</p>
+                                                <p class="fs-14 book-time txt-grey">Today 8:00 PM</p>
+                                            </td>
+                                            <td>
+                                                <p class="txt-grey table-content pt-2">Poolishing Teeth</p>
+                                            </td>
+                                            <td>
+                                                <p class="txt-grey table-content pt-2">USD 50.00</p>
+                                            </td>
+                                            <td>
+                                                <p class="pt-2 fw-600 table-content text-success red-hat">Active</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="lh-5 ps-5 ps-0">
+                                                <p class="pt-2 book-id">545415461</p>
+                                                <p class="fs-14 book-time txt-grey">Today 8:00 PM</p>
+                                            </td>
+                                            <td>
+                                                <p class="txt-grey table-content pt-2">New smile makeover</p>
+                                            </td>
+                                            <td>
+                                                <p class="txt-grey table-content pt-2">USD 50.00</p>
+                                            </td>
+                                            <td>
+                                                <p class="pt-2 fw-600 table-content text-warning red-hat">Completed</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="lh-5 ps-5 ps-0">
+                                                <p class="pt-2 book-id">545415461</p>
+                                                <p class="fs-14 book-time txt-grey">Today 8:00 PM</p>
+                                            </td>
+                                            <td>
+                                                <p class="txt-grey table-content pt-2 ">Remove Smile</p>
+                                            </td>
+                                            <td>
+                                                <p class="txt-grey table-content pt-2">USD 50.00</p>
+                                            </td>
+                                            <td>
+                                                <p class="pt-2 fw-600 table-content text-danger red-hat">Cancelled</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="lh-5 ps-5 ps-0">
+                                                <p class="pt-2 book-id">545415461</p>
+                                                <p class="fs-14 book-time txt-grey">Today 8:00 PM</p>
+                                            </td>
+                                            <td>
+                                                <p class="txt-grey table-content pt-2">Repair one or two teeth</p>
+                                            </td>
+                                            <td>
+                                                <p class="txt-grey table-content pt-2">USD 50.00</p>
+                                            </td>
+                                            <td>
+                                                <p class="pt-2 fw-600 table-content text-success red-hat">Active</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="mt-2">
+                                            <td class="lh-5 ps-5 ps-0">
+                                                <p class="pt-2 book-id">545415461</p>
+                                                <p class="fs-14 book-time txt-grey">Today 8:00 PM</p>
+                                            </td>
+                                            <td>
+                                                <p class="txt-grey table-content pt-2">Physical Consultation</p>
+                                            </td>
+                                            <td>
+                                                <p class="txt-grey table-content pt-2">USD 50.00</p>
+                                            </td>
+                                            <td>
+                    
+                                                <p class="pt-2 fw-600 table-content text-warning red-hat">Completed</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="lh-5 ps-5 ps-0">
+                                                <p class="pt-2 book-id">545415461</p>
+                                                <p class="fs-14 book-time txt-grey">Today 8:00 PM</p>
+                                            </td>
+                                            <td>
+                                                <p class="txt-grey table-content pt-2">Poolishing Teeth</p>
+                                            </td>
+                                            <td>
+                                                <p class="txt-grey table-content pt-2">USD 50.00</p>
+                                            </td>
+                                            <td>
+                                                <p class="pt-2 fw-600 table-content text-success red-hat">Active</p>
+                                            </td>
+                                        </tr>
+                    
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <!-- Dashboard  End-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main Section End -->
+
+    <script src="../../js/bootstrap.js"></script>
+    <script src="../../js/app.js"></script>
+</body>
+
+</html>

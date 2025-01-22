@@ -193,130 +193,119 @@
 
           <div class="section col-md-9 col-lg-9 col-xl-9 col-xxl-9">
             <div class="mt-3">
-              <h2 class="lexend">Booking History</h2>
+              <h2 class="lexend"> <i class="fa-solid fa-arrow-left"></i> Client Details</h2>
             </div>
             <div class="row">
                 <div class="col-lg-12 col-xxl-12 col-xl-12 col-md-12 col-sm-12">
                     
                     <div class="booking-history px-3 py-3 mt-2  ">
-                        <div class="booking-title px-3">
+                        <div class="client-booking-title px-3">
                             <div>
-                                <p class="fs-20 fw-700 red-hat pt-3 ps-5 ps-0">Bookings</p>
+                                <p class="fs-20 fw-700 red-hat pt-3 ps-0">Records</p>
                             </div>
-                            <div class="booking-form lexend">
-                                <div class="btn-group">
-                                    <button class="btn-physical" id="physical-btn" onclick="physicalButton()">Physical</button>
-                                    <button class="btn-online" id="online-btn" onclick="onlineButton()">Online</button>
+                            <div class="client-booking-head lexend">
+                                <div class="download-icons">
+                                    <i class="fa-solid fa-file txt-pink"></i>
+                                    <p>PDF</p>
+                                    <i class="fa-solid fa-file-csv txt-pink"></i>
+                                    <p>CSV</p>
+                                    <i class="fa-solid fa-file-excel txt-pink"></i>
+                                    <p>EXCEL</p>
+                                    <i class="fa-solid fa-share-nodes txt-pink"></i>
+                                    <p>SHARE</p>
                                 </div>
-                                <div class="booking-date">
+                                <div class="client-btn-group">
+                                    <button class="client-btn-booking" id="physical-btn" onclick="physicalButton()">Booking</button>
+                                    <button class="client-btn-record" id="online-btn" onclick="onlineButton()">Record</button>
+                                </div>
+                                <div class="client-date">
                                     <input type="date">
-                                </div>
-                                <div class="booking-icon ">
-                                    <img src="../../Images/toggler.png" alt="toggler">
-                                    <img src="../../Images/Calendar.png" alt="Calendar">
                                 </div>
                             </div>
                         </div>
                         <div class="booking px-3 table-responsive ">
                             <table class="table lexend  main-table">
                                 <tr class="booking-head booking-table-header ">
-                                    <th class="ps-5 ps-0 red-hat ">Booking ID / Date & Time</th>
-                                    <th>Service</th>
-                                    <th>Amount</th>
-                                    <th>Status</th>
+                                    <th class="ps-5 ps-0 red-hat ">Record ID</th>
+                                    <th>Date</th>
+                                    <th>Action</th>
                                 </tr>
                                 <tr>
-                                    <td class="lh-5 ps-5 ps-0">
-                                        <p class="pt-2 book-id">545415461</p>
-                                        <p class="fs-14 book-time txt-grey">Today 8:00 PM</p>
+                                    <td>
+                                        <p class="fw-600 fs-15 table-content ps-5 pt-2">#123hpth</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey table-content pt-2">Poolishing Teeth</p>
+                                        <p class="txt-grey table-content fs-14 pt-2">03/20/2024</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey table-content pt-2">USD 50.00</p>
-                                    </td>
-                                    <td>
-                                        <p class="pt-2 fw-600 table-content text-success red-hat">Active</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="lh-5 ps-5 ps-0">
-                                        <p class="pt-2 book-id">545415461</p>
-                                        <p class="fs-14 book-time txt-grey">Today 8:00 PM</p>
-                                    </td>
-                                    <td>
-                                        <p class="txt-grey table-content pt-2">New smile makeover</p>
-                                    </td>
-                                    <td>
-                                        <p class="txt-grey table-content pt-2">USD 50.00</p>
-                                    </td>
-                                    <td>
-                                        <p class="pt-2 fw-600 table-content text-warning red-hat">Completed</p>
+                                        <div class="pt-1">
+                                            <button class="broadcast-btn">
+                                              View
+                                            </button>
+                                          </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="lh-5 ps-5 ps-0">
-                                        <p class="pt-2 book-id">545415461</p>
-                                        <p class="fs-14 book-time txt-grey">Today 8:00 PM</p>
+                                    <td>
+                                        <p class="fw-600 fs-15 table-content ps-5 pt-2">#123hpth</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey table-content pt-2 ">Remove Smile</p>
+                                        <p class="txt-grey table-content fs-14 pt-2">03/20/2024</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey table-content pt-2">USD 50.00</p>
-                                    </td>
-                                    <td>
-                                        <p class="pt-2 fw-600 table-content text-danger red-hat">Cancelled</p>
+                                        <div class="pt-1">
+                                            <button class="broadcast-btn">
+                                              View
+                                            </button>
+                                          </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="lh-5 ps-5 ps-0">
-                                        <p class="pt-2 book-id">545415461</p>
-                                        <p class="fs-14 book-time txt-grey">Today 8:00 PM</p>
+                                    <td>
+                                        <p class="fw-600 fs-15 table-content ps-5 pt-2">#123hpth</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey table-content pt-2">Repair one or two teeth</p>
+                                        <p class="txt-grey table-content fs-14 pt-2">03/20/2024</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey table-content pt-2">USD 50.00</p>
-                                    </td>
-                                    <td>
-                                        <p class="pt-2 fw-600 table-content text-success red-hat">Active</p>
-                                    </td>
-                                </tr>
-                                <tr class="mt-2">
-                                    <td class="lh-5 ps-5 ps-0">
-                                        <p class="pt-2 book-id">545415461</p>
-                                        <p class="fs-14 book-time txt-grey">Today 8:00 PM</p>
-                                    </td>
-                                    <td>
-                                        <p class="txt-grey table-content pt-2">Physical Consultation</p>
-                                    </td>
-                                    <td>
-                                        <p class="txt-grey table-content pt-2">USD 50.00</p>
-                                    </td>
-                                    <td>
-            
-                                        <p class="pt-2 fw-600 table-content text-warning red-hat">Completed</p>
+                                        <div class="pt-1">
+                                            <button class="broadcast-btn">
+                                              View
+                                            </button>
+                                          </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="lh-5 ps-5 ps-0">
-                                        <p class="pt-2 book-id">545415461</p>
-                                        <p class="fs-14 book-time txt-grey">Today 8:00 PM</p>
+                                    <td>
+                                        <p class="fw-600 fs-15 table-content ps-5 pt-2">#123hpth</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey table-content pt-2">Poolishing Teeth</p>
+                                        <p class="txt-grey table-content fs-14 pt-2">03/20/2024</p>
                                     </td>
                                     <td>
-                                        <p class="txt-grey table-content pt-2">USD 50.00</p>
-                                    </td>
-                                    <td>
-                                        <p class="pt-2 fw-600 table-content text-success red-hat">Active</p>
+                                        <div class="pt-1">
+                                            <button class="broadcast-btn">
+                                              View
+                                            </button>
+                                          </div>
                                     </td>
                                 </tr>
-            
+                                <tr>
+                                    <td>
+                                        <p class="fw-600 fs-15 table-content ps-5 pt-2">#123hpth</p>
+                                    </td>
+                                    <td>
+                                        <p class="txt-grey table-content fs-14 pt-2">03/20/2024</p>
+                                    </td>
+                                    <td>
+                                        <div class="pt-1">
+                                            <button class="broadcast-btn">
+                                              View
+                                            </button>
+                                          </div>
+                                    </td>
+                                </tr>
+                             
                             </table>
                         </div>
 
